@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "82902134277",
+    "project_id": "finapp-dbad7",
+    "storage_bucket": "finapp-dbad7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82902134277:android:7eff18aebf1cd14cf7766c",
+        "android_client_info": {
+          "package_name": "dev.sudhanshu.finapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVsZEGhGJcQwwutVOVz8QmryInubPPTpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82902134277:android:26653cf92b2d84c1f7766c",
+        "android_client_info": {
+          "package_name": "dev.sudhansu.finapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVsZEGhGJcQwwutVOVz8QmryInubPPTpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

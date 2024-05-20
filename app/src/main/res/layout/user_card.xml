@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/user_card_bg"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            app:shapeAppearanceOverlay="@style/ImageCorner"
+            android:src="@drawable/logo"
+            android:id="@+id/userAvatar">
+        </com.google.android.material.imageview.ShapeableImageView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name : John will"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="16sp"
+            android:id="@+id/userName">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age : 48"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/userAge">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City : Bengaluru"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins"
+            android:textSize="14sp"
+            android:id="@+id/userCity">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
